@@ -1,125 +1,165 @@
-# Filter Challenges
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-Chrome extension made for the Microverse online software school students.
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
+
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/tirthajyoti-ghosh/collapsible-side-navbar">
+    <img src="https://user-images.githubusercontent.com/57726348/132129526-2b474d47-fc43-4d37-9a0b-7c5fb4a7f828.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Collapsible Side Navbar</h3>
+
+  <p align="center">
+    Make the side navbar of Microverse Dashboard collapsible to help students with lower screen width better access the dashboard pages.
+    <br />
+    <a href="https://github.com/tirthajyoti-ghosh/collapsible-side-navbar"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/tirthajyoti-ghosh/collapsible-side-navbar">View Demo</a>
+    ·
+    <a href="https://github.com/tirthajyoti-ghosh/collapsible-side-navbar/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/tirthajyoti-ghosh/collapsible-side-navbar/issues">Request Feature</a>
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-- [Objective](#Objective)
-- [Features](#Features)
-- [Future Features](#Future-Features)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Technologies Used](#Technologies-Used)
-- [Acknowledgments](#Acknowledgments)
-- [Author](#Author)
-- [Contributing](#Contributing)
-- [Show your support](#Show-your-support)
+* [About the Project](#about-the-project)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Roadmap](#roadmap)
+  * [Immediate](#immediate)
+  * [Near future](#near-future)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
-### Objective
 
-[Microverse](https://www.microverse.org) is an online software development school. Students learn multiple programming languages and Computer Science fundamentals, through working on real projects with other students to reach mastery. Every day, each student, her/his coding partner, and the stand-up team will support and hold each other accountable to produce great work while remote pair programming.
 
-There is a dashboard where the students can connect and get info for their weekly progress and the daily program. On the dashboard, there is an option called 'View Progress'. By clicking on it, the students see a page with options to choose between Projects, Coding Challenges, and Professional skills.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-<img src="img/screen1.jpg">
+This is a chrome extension built to help Microverse students with devices having low screen widths. The navbar takes up some space on the screen and the main content is squeezed which makes it a bit hard to properly view the contents of the pages.
 
-When students click on an option they see a list of their projects. The problem is that after a couple of months the list has many completed projects and they have to scroll a lot. This is especially true in the case of Coding Challenges. This extension solves this problem by removing temporarily the completed projects.
+Checkout the before and after comparison below to understand the pain:
 
-[Up](#Table-of-Contents)
+### Before
 
-### Features
+![before](https://user-images.githubusercontent.com/57726348/132130236-80ff5454-1a44-4850-bcdc-33b1cd03c075.gif)
 
-1. It temporarily removes all completed projects from the list. User can see the full list by clicking the `Show Completed` button. Currently works on Projects, Coding Challenges, and Professional skills. 
+### After
 
-### Future Features
+![after](https://user-images.githubusercontent.com/57726348/132130255-d4ed0fa8-24bb-4d17-ace4-5708b852504e.gif)
 
-1. Add an icon
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+* First, clone the repository
+
+    ```sh
+    git clone https://github.com/tirthajyoti-ghosh/collapsible-side-navbar.git
+    ```
 
 ### Installation
 
-Currently the extension in not on the Coogle Store. Follow the steps below to add it to your Chrome.
+1. Got to this URL: `chrome://extensions/`
+2. Turn on `Developer Mode` at the top right corner of your screen.
 
-1. Clone this repo to your computer.
+    ![image](https://user-images.githubusercontent.com/57726348/87847859-bd347e00-c8f8-11ea-8f6d-8cfa4bdbe554.png)
 
-<img src="img/screen2.jpg">
+3. Click on `Load unpacked`
 
-2. On your Chrome bar type ```chrome://extensions/``` and press enter.
+    ![image](https://user-images.githubusercontent.com/57726348/87847886-e5bc7800-c8f8-11ea-9942-8a5230f5e327.png)
 
-<img src="img/screen3.jpg">
+4. Navigate to the path where you have cloned this repository, select the folder and click `Select Folder`.
 
-3. Turn on the Developer mode toggle button on the top right of the bar.
+<!-- ROADMAP -->
+## Roadmap
 
-<img src="img/screen4.jpg">
+### Immediate
 
-4. Click the Load Unpacked button.
-<img src="img/screen5.jpg">
+* Fix no `transition` happening when closing the side navbar.
 
-5. Navigate where you saved the project and select the filter-challenges folder.
+### Near future
 
-<img src="img/screen6.jpg">
+* "Remember" the state (opened or collapsed) of the side navbar when navigating to other pages after opening/collapsing it.
 
-6. If you did everything right the extension is installed and ready to use.
+See the [open issues](https://github.com/tirthajyoti-ghosh/collapsible-side-navbar/issues) for more details.
 
-<img src="img/screen7.jpg">
+## Contributors
 
-[Up](#Table-of-Contents)
+* [Tirthajyoti Ghosh](https://github.com/tirthajyoti-ghosh)
 
-### Usage
+<!-- CONTRIBUTING -->
+## Contributing (*Actively looking for contributors*)
 
-1. Navigate to your Microverse Dashboard. Click View Progress and then Coding Challenges. 
+ Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-<img src="img/screen8.jpg">
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-2. Your list now show only the pending items.
+<!-- LICENSE -->
+## License
 
-4. If you want to see the completed items just click on the button ```Show Completed```
+Distributed under the GNU GENERAL PUBLIC LICENSE Version 3. See `LICENSE` for more information.
 
-[Up](#Table-of-Contents)
+<!-- CONTACT -->
+## Contact
 
-### Technologies Used
+Tirthajyoti Ghosh - [@terrific_ghosh](https://twitter.com/terrific_ghosh) - t.ghosh.me@gmail.com
 
-- HTML/CSS
-- ES6
-- Chrome
+Project Link: [https://github.com/tirthajyoti-ghosh/collapsible-side-navbar](https://github.com/tirthajyoti-ghosh/collapsible-side-navbar)
 
-[Up](#Table-of-Contents)
-
+<!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-- [Microverse](https://www.microverse.org) software development school
-- [Murilo Roque Paiva da Silva](https://github.com/MuriloRoque) for fixing the Projects list
-- [Tirthajyoti Ghosh](https://github.com/tirthajyoti-ghosh) for the show/hide functionality and button design
+* [Img Shields](https://shields.io)
+* [README icon (Double Left) by Icons8](https://icons8.com/icon/RLOpvVbcu51v/double-left)
 
-[Up](#Table-of-Contents)
-
-## 👤 Author
-
-- Github: [@macnick](https://github.com/macnick)
-- Twitter: [@mac_experts](https://twitter.com/mac_experts)
-- Linkedin: [Nick Haralampopoulos](https://www.linkedin.com/in/nick-haralampopoulos/)
-- AngelList: [Nick Haralampopoulos](https://angel.co/u/nick-haralampopoulos)
-
-## 🤝 Contributors
-
-- [Tirthajyoti Ghosh](https://github.com/tirthajyoti-ghosh)
-- [Murilo Roque Paiva da Silva](https://github.com/MuriloRoque)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/macnick/react-calculator/issues).
-
-1. Fork it (https://github.com/macnick/react-calculator/fork)
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
-
-## Show your support
-
-Give a ⭐️ if you enjoyed this project!
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/tirthajyoti-ghosh/collapsible-side-navbar.svg?style=flat-square
+[contributors-url]: https://github.com/tirthajyoti-ghosh/collapsible-side-navbar/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/tirthajyoti-ghosh/collapsible-side-navbar.svg?style=flat-square
+[forks-url]: https://github.com/tirthajyoti-ghosh/collapsible-side-navbar/network/members
+[stars-shield]: https://img.shields.io/github/stars/tirthajyoti-ghosh/collapsible-side-navbar.svg?style=flat-square
+[stars-url]: https://github.com/tirthajyoti-ghosh/collapsible-side-navbar/stargazers
+[issues-shield]: https://img.shields.io/github/issues/tirthajyoti-ghosh/collapsible-side-navbar.svg?style=flat-square
+[issues-url]: https://github.com/tirthajyoti-ghosh/collapsible-side-navbar/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/tirthajyoti-ghosh/
