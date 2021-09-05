@@ -141,7 +141,12 @@ Distributed under the GNU GENERAL PUBLIC LICENSE Version 3. See `LICENSE` for mo
 <!-- CONTACT -->
 ## Contact
 
-Tirthajyoti Ghosh - [@terrific_ghosh](https://twitter.com/terrific_ghosh) - t.ghosh.me@gmail.com
+👤 **Tirthajyoti Ghosh**
+
+* Website: [ghosh.tech](https://ghosh.tech/)
+* GitHub - [@tirthajyoti-ghosh](https://github.com/tirthajyoti-ghosh)
+* Twitter - [@terrific_ghosh](https://twitter.com/terrific_ghosh)
+* LinkedIn - [@tirthajyoti-ghosh](https://www.linkedin.com/in/tirthajyoti-ghosh/)
 
 Project Link: [https://github.com/tirthajyoti-ghosh/collapsible-side-navbar](https://github.com/tirthajyoti-ghosh/collapsible-side-navbar)
 
