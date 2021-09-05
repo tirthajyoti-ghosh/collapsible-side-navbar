@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Collapsible Sidebar",
+  "version": "1.0.0",
+  "description": "Make the side navbar of Microverse Dashboard collapsible to help students with lower screen width better access the dashboard pages.",
+  "permissions": [
+    "tabs",
+    "*://dashboard.microverse.org/*",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://dashboard.microverse.org/*"
+      ],
+      "js": [
+        "collapsible.js"
+      ]
+    }
+  ]
+}
