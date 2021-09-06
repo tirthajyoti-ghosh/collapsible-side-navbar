@@ -72,11 +72,11 @@ Checkout the before and after comparison below to understand the pain:
 
 ### Before
 
-![before](https://user-images.githubusercontent.com/57726348/132130236-80ff5454-1a44-4850-bcdc-33b1cd03c075.gif)
+![before](https://user-images.githubusercontent.com/57726348/132220822-7e6b7330-f940-4515-9d35-481e8e7690cb.gif)
 
 ### After
 
-![after](https://user-images.githubusercontent.com/57726348/132130255-d4ed0fa8-24bb-4d17-ace4-5708b852504e.gif)
+![after](https://user-images.githubusercontent.com/57726348/132220854-2478d231-a6de-4b1e-a24e-f5eb0888a8b4.gif)
 
 
 <!-- GETTING STARTED -->
@@ -110,7 +110,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Immediate
 
-* Fix no `transition` happening when closing the side navbar.
+----*No immediate roadmap*-----
 
 ### Near future
 
